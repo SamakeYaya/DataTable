@@ -1,0 +1,50 @@
+/* En-têtes de colonne */
+#myTable th {
+    background-color: #c21212;
+    /* remplacer par la couleur de fond souhaitée */
+    color: #f3f3f3;
+    /* remplacer par la couleur de texte souhaitée */
+}
+
+/* Lignes impaires */
+#myTable tr:nth-child(odd) {
+    background-color: #f2f2f2;
+    /* remplacer par la couleur de fond souhaitée */
+}
+
+/* Lignes paires */
+#myTable tr:nth-child(even) {
+    background-color: #fff;
+    /* remplacer par la couleur de fond souhaitée */
+}
+
+/* Cellules */
+#myTable td {
+    border: 1px solid #ddd;
+    /* remplacer par la couleur de bordure souhaitée */
+    padding: 8px;
+    /* remplacer par la taille de rembourrage souhaitée */
+}
+
+/* Style sur la barre de recherche */
+.dataTables_wrapper .dataTables_filter {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    margin: 10px;
+}
+
+/* style sur la barre de pagination */
+/* .dataTables_wrapper .dataTables_paginate {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+} */
+
+/* style sur la barre de taille */
+.dataTables_wrapper .dataTables_length {
+    position: relative;
+    top: -20px;
+
+}
